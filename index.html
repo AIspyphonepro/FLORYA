@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLORYA</title>
+  <meta name="description" content="FLORYA aus Deutschland: pharmazeutische 80ml Schaumfluessigkeit zur Pflege sensibler Hautbereiche bei Warzen, Zysten, Reizungen, Pilzen und weiteren dermatologischen Herausforderungen.">
+  <link rel="icon" type="image/png" href="https://dummyimage.com/64x64/0b3b7a/ffffff.png?text=F">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+    body {
+      font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+      background: #f7fbff;
+      color: #0f172a;
+    }
+    .hero-zoom {
+      animation: heroZoom 18s ease-in-out infinite alternate;
+      transform-origin: center;
+    }
+    @keyframes heroZoom {
+      from { transform: scale(1); }
+      to { transform: scale(1.06); }
+    }
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 700ms ease, transform 700ms ease;
+    }
+    .reveal.in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .track {
+      display: flex;
+      width: max-content;
+      gap: 0.75rem;
+      animation: moveTrack 42s linear infinite;
+    }
+    @keyframes moveTrack {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+  </style>
+</head>
+<body>
+  <header class="sticky top-0 z-40 border-b border-sky-100 bg-white/95 backdrop-blur">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex h-9 w-9 items-center justify-center rounded-md bg-sky-800 text-lg font-bold text-white">F</span>
+        <span class="text-xl font-extrabold tracking-wide text-sky-900">FLORYA</span>
+      </div>
+      <span class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-700">Pharma Germany</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="relative min-h-[92vh] overflow-hidden">
+      <img src="img/ff.png" alt="FLORYA Produktwerbung" class="hero-zoom absolute inset-0 h-full w-full object-cover">
+      <div class="absolute inset-0 bg-gradient-to-b from-slate-900/70 via-slate-900/45 to-slate-900/75"></div>
+      <div class="relative mx-auto flex min-h-[92vh] max-w-5xl flex-col justify-center px-4 pb-12 pt-10 text-white">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-[0.22em] text-sky-200">FLORYA Deutschland</p>
+        <h1 class="max-w-2xl text-4xl font-black leading-tight sm:text-5xl">FLORYA 80ml Schaumfluessigkeit fuer sensible Hautzonen.</h1>
+        <p class="mt-5 max-w-2xl text-base leading-relaxed text-slate-100 sm:text-lg">
+          Eine moderne pharmazeutische Pflegeformel fuer den Intimbereich und andere empfindliche Hautareale.
+          Entwickelt fuer die gezielte Begleitung bei Genitalwarzen, Zysten, roten Entzuendungen, Molluscum contagiosum,
+          juckenden Pilzbelastungen sowie typischen Unregelmaessigkeiten wie kleinen Papeln und Knoetchen.
+        </p>
+      </div>
+    </section>
+
+    <section class="reveal mx-auto max-w-5xl px-4 py-10">
+      <h2 class="text-2xl font-extrabold text-sky-900">Das Produkt im Fokus</h2>
+      <p class="mt-3 text-sm leading-relaxed text-slate-700">
+        FLORYA ist ein fluessiger Schaum (80ml) fuer die lokale Anwendung auf aeusseren sensiblen Hautbereichen.
+        Die Textur verteilt sich gleichmaessig, trocknet schnell und hinterlaesst keinen klebrigen Film. Ziel ist eine
+        hygienische, kontrollierbare und hautschonende Anwendung im Alltag.
+      </p>
+      <div class="mt-6 overflow-hidden rounded-2xl border border-sky-100 bg-white">
+        <div class="relative h-72 w-full sm:h-96">
+          <img src="img/f1.png" alt="FLORYA Flasche" data-product-slide class="absolute inset-0 h-full w-full object-contain p-6 opacity-100 transition-opacity duration-700">
+          <img src="img/f2.png" alt="FLORYA Verpackung" data-product-slide class="absolute inset-0 h-full w-full object-contain p-6 opacity-0 transition-opacity duration-700">
+          <img src="img/f3.png" alt="FLORYA Komplettset" data-product-slide class="absolute inset-0 h-full w-full object-contain p-6 opacity-0 transition-opacity duration-700">
+        </div>
+      </div>
+      <p class="mt-4 text-xs uppercase tracking-[0.18em] text-sky-700">Auto-Ansicht: Flasche, Box und Komplettpraesentation</p>
+    </section>
+
+    <section class="reveal border-y border-sky-100 bg-sky-50/65 py-10">
+      <div class="mx-auto max-w-5xl px-4">
+        <h2 class="text-2xl font-extrabold text-sky-900">Dermatologische Problemfelder</h2>
+        <p class="mt-3 text-sm leading-relaxed text-slate-700">
+          Die folgenden Bilddaten (a1 bis a7) werden bewusst als fortlaufende Galerie gezeigt. Alle Formate sind auf ein
+          sauberes Verhaeltnis gebracht, damit auch unterschiedliche Ausgangsbilder modern und einheitlich erscheinen.
+        </p>
+      </div>
+      <div class="mt-5 overflow-hidden">
+        <div class="track px-4" aria-label="Automatische Problemgalerie">
+          <img src="img/a1.jpeg" alt="Hautproblem 1" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a2.jpeg" alt="Hautproblem 2" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a3.jpeg" alt="Hautproblem 3" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a4.jpeg" alt="Hautproblem 4" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a5.jpeg" alt="Hautproblem 5" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a6.jpeg" alt="Hautproblem 6" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a7.jpeg" alt="Hautproblem 7" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a1.jpeg" alt="Hautproblem 1 wiederholt" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a2.jpeg" alt="Hautproblem 2 wiederholt" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a3.jpeg" alt="Hautproblem 3 wiederholt" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a4.jpeg" alt="Hautproblem 4 wiederholt" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a5.jpeg" alt="Hautproblem 5 wiederholt" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a6.jpeg" alt="Hautproblem 6 wiederholt" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+          <img src="img/a7.jpeg" alt="Hautproblem 7 wiederholt" class="h-44 w-44 rounded-xl object-cover shadow-sm ring-1 ring-sky-200/70 sm:h-52 sm:w-52">
+        </div>
+      </div>
+      <div class="mx-auto mt-8 max-w-5xl space-y-6 px-4 text-sm leading-relaxed text-slate-700">
+        <article>
+          <h3 class="text-lg font-bold text-sky-900">1) Genitalwarzen (Condylomata acuminata)</h3>
+          <p>
+            Diese veraenderte Hautstruktur entsteht meist im Zusammenhang mit HPV und zeigt sich als kleine oder gruppierte Erhebungen.
+            FLORYA wird lokal eingesetzt, um die Hautumgebung zu stabilisieren, Reizreaktionen zu beruhigen und die taegliche Pflege der
+            betroffenen Stelle unter hygienischen Bedingungen zu vereinfachen.
+          </p>
+        </article>
+        <article>
+          <h3 class="text-lg font-bold text-sky-900">2) Zysten (Cysts)</h3>
+          <p>
+            Bei oberflaechlichen Zysten im sensiblen Bereich steht eine schonende Routine im Vordergrund: saubere Haut, kontrollierte
+            Applikation und Reibungsreduktion. Die Schaumstruktur verteilt Wirkstoffe gleichmaessig ohne starken Druck auf die Haut.
+          </p>
+        </article>
+        <article>
+          <h3 class="text-lg font-bold text-sky-900">3) Gewoehnliche Papeln, Pickel und Knoetchen</h3>
+          <p>
+            Nicht jede Unebenheit ist eine Krankheit. Viele Befunde sind funktionelle Irritationen durch Feuchtigkeit, Rasur, Reibung
+            oder okklusive Kleidung. FLORYA unterstuetzt eine ruhige Hautoberflaeche und hilft, den Bereich sauber und gepflegt zu halten.
+          </p>
+        </article>
+        <article>
+          <h3 class="text-lg font-bold text-sky-900">4) Rote Hautinfektionen und entzuedliche Stellen</h3>
+          <p>
+            Bei Roetungen und punktuellen Entzuendungen ist eine milde Pflege entscheidend. Die Formulierung setzt auf hautfreundliche
+            Komponenten zur Beruhigung, waehrend die regelmaessige Anwendung ein stabiles Milieu fuer die Regeneration foerdern kann.
+          </p>
+        </article>
+        <article>
+          <h3 class="text-lg font-bold text-sky-900">5) Molluscum contagiosum (Dellwarzen)</h3>
+          <p>
+            Diese viralen Hautveraenderungen koennen sich im Kontakt ausbreiten. Die FLORYA-Routine kombiniert lokale Pflege,
+            hygienische Handhabung und strukturierte Anwendung, um die Hautbarriere bestmoeglich zu begleiten.
+          </p>
+        </article>
+        <article>
+          <h3 class="text-lg font-bold text-sky-900">6) Pilze und Juckreiz</h3>
+          <p>
+            Feuchte und warme Hautfalten sind haeufige Ausloeser fuer juckende Pilzprobleme. Die leichte Schaumfluessigkeit laesst sich
+            gleichmaessig verteilen, trocknet zuegig und unterstuetzt dadurch eine alltagstaugliche Pflege ohne schweren Fettfilm.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="reveal mx-auto max-w-5xl px-4 py-10">
+      <h2 class="text-2xl font-extrabold text-sky-900">Anwendung: stark, klar, Schritt fuer Schritt</h2>
+      <p class="mt-3 text-sm leading-relaxed text-slate-700">
+        Die Anwendung ist fuer eine taegliche Routine ausgelegt. Unten wird die Reihenfolge automatisch hervorgehoben,
+        damit die Nutzung auf dem Smartphone schnell verstanden wird.
+      </p>
+      <ol class="mt-6 space-y-5" id="usage-steps">
+        <li class="rounded-xl border border-sky-200 bg-white px-4 py-4" data-step>
+          <h3 class="font-bold text-sky-900">Schritt 1: Reinigung</h3>
+          <p class="mt-2 text-sm text-slate-700">Bereich mit lauwarmem Wasser reinigen und trocken tupfen. Keine aggressiven Seifen direkt vorher verwenden.</p>
+        </li>
+        <li class="rounded-xl border border-sky-200 bg-white px-4 py-4" data-step>
+          <h3 class="font-bold text-sky-900">Schritt 2: Auftragen</h3>
+          <p class="mt-2 text-sm text-slate-700">Eine kleine Menge FLORYA Schaumfluessigkeit (80ml Flasche) punktuell und duenn verteilen.</p>
+        </li>
+        <li class="rounded-xl border border-sky-200 bg-white px-4 py-4" data-step>
+          <h3 class="font-bold text-sky-900">Schritt 3: Einwirkzeit</h3>
+          <p class="mt-2 text-sm text-slate-700">2 bis 3 Minuten einwirken lassen. Danach den Bereich trocken halten. Anwendung morgens und abends.</p>
+        </li>
+        <li class="rounded-xl border border-sky-200 bg-white px-4 py-4" data-step>
+          <h3 class="font-bold text-sky-900">Schritt 4: Verlauf beobachten</h3>
+          <p class="mt-2 text-sm text-slate-700">Fortschritt taeglich dokumentieren. Bei Unsicherheit oder starken Beschwerden medizinische Fachberatung einholen.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="reveal border-y border-sky-100 bg-white py-10">
+      <div class="mx-auto max-w-5xl px-4">
+        <h2 class="text-2xl font-extrabold text-sky-900">Tabelle der aktiven und naturbasierten Komponenten</h2>
+        <div class="mt-5 overflow-x-auto rounded-xl border border-sky-100">
+          <table class="min-w-full bg-white text-left text-sm">
+            <thead class="bg-sky-900 text-white">
+              <tr>
+                <th class="px-4 py-3 font-semibold">Wirkstoff</th>
+                <th class="px-4 py-3 font-semibold">Pharmazeutische Funktion</th>
+                <th class="px-4 py-3 font-semibold">Quelle</th>
+                <th class="px-4 py-3 font-semibold">Rolle im sensiblen Bereich</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-sky-100 text-slate-700">
+              <tr>
+                <td class="px-4 py-3 font-semibold text-sky-800">Panthenol (Provitamin B5)</td>
+                <td class="px-4 py-3">Barrierestaerkung und Feuchtigkeitsbindung</td>
+                <td class="px-4 py-3">Pharma Standard</td>
+                <td class="px-4 py-3">Beruhigt gereizte Haut und reduziert Spannungsgefuehl</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 font-semibold text-sky-800">Allantoin</td>
+                <td class="px-4 py-3">Regenerationsfoerdernd</td>
+                <td class="px-4 py-3">Naturidentisch</td>
+                <td class="px-4 py-3">Unterstuetzt glattere Hautoberflaeche bei Unregelmaessigkeiten</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 font-semibold text-sky-800">Bisabolol</td>
+                <td class="px-4 py-3">Beruhigend und hautfreundlich</td>
+                <td class="px-4 py-3">Pflanzlich</td>
+                <td class="px-4 py-3">Hilft bei Roetung und Juckreiz in empfindlichen Zonen</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 font-semibold text-sky-800">Lactat-gepufferte Basis</td>
+                <td class="px-4 py-3">pH-stabilisierend</td>
+                <td class="px-4 py-3">Laborgesteuert</td>
+                <td class="px-4 py-3">Foerdert ein ausgewogenes Hautmilieu</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 font-semibold text-sky-800">Antimikrobieller Komplex</td>
+                <td class="px-4 py-3">Hygieneunterstuetzend</td>
+                <td class="px-4 py-3">Deutschland</td>
+                <td class="px-4 py-3">Begleitet die Pflege bei belasteter und zu Entzuendung neigender Haut</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal mx-auto max-w-5xl px-4 py-10">
+      <h2 class="text-2xl font-extrabold text-sky-900">Forschung, Studien und Zertifizierungen</h2>
+      <p class="mt-3 text-sm leading-relaxed text-slate-700">
+        FLORYA wird als pharmazeutisches Pflegekonzept unter kontrollierten Herstellbedingungen in Deutschland entwickelt.
+        Die Dokumentation umfasst Stabilitaetspruefungen, Hautvertraeglichkeitstests und chargenbezogene Qualitaetskontrollen.
+      </p>
+      <div class="mt-5 space-y-2 text-sm text-slate-700">
+        <p><strong>Laborzentrum:</strong> FLORYA Med Research, Berlin-Adlershof, Deutschland.</p>
+        <p><strong>Produktionsrichtlinie:</strong> GMP-orientierte Prozesskontrolle.</p>
+        <p><strong>Zertifikate:</strong> ISO 13485, ISO 22716 (Kosmetik/GMP), Dermaler Vertraeglichkeitstest.</p>
+        <p><strong>Interne Studienpfade:</strong> Beobachtungsreihen zu Hautberuhigung, Trockenheitsreduktion und Pflegekomfort in sensiblen Bereichen.</p>
+      </div>
+      <p class="mt-4 text-xs text-slate-500">Hinweis: FLORYA ist ein Produkt zur lokalen Pflege. Bei schweren oder anhaltenden Beschwerden sollte eine medizinische Diagnose erfolgen.</p>
+    </section>
+
+    <section class="reveal border-y border-sky-100 bg-sky-50/50 py-10">
+      <div class="mx-auto max-w-5xl px-4">
+        <h2 class="text-2xl font-extrabold text-sky-900">Standorte, Labore und globale Praesenz</h2>
+        <p class="mt-3 text-sm text-slate-700">
+          Hauptlabor in Deutschland mit internationalen Partnerpunkten. Dieser Bereich ist fuer Standortdarstellung und globale Expansion vorgesehen.
+        </p>
+        <div class="mt-6 space-y-5">
+          <div>
+            <h3 class="mb-2 text-sm font-bold uppercase tracking-[0.15em] text-sky-700">Hauptlabor Deutschland</h3>
+            <iframe title="Berlin Lab Map" class="h-60 w-full rounded-xl border border-sky-200" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Berlin+Adlershof+Germany&output=embed"></iframe>
+          </div>
+          <div>
+            <h3 class="mb-2 text-sm font-bold uppercase tracking-[0.15em] text-sky-700">Weltweite Vertretungen</h3>
+            <iframe title="Global Branches Map" class="h-60 w-full rounded-xl border border-sky-200" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Frankfurt+Germany&output=embed"></iframe>
+          </div>
+        </div>
+        <div class="mt-6 text-sm leading-relaxed text-slate-700">
+          <p><strong>Deutschland:</strong> Berlin (R&amp;D), Frankfurt (Logistik).</p>
+          <p><strong>Europa:</strong> Paris, Madrid, Amsterdam.</p>
+          <p><strong>MENA &amp; Global:</strong> Dubai, Istanbul, Casablanca, Sao Paulo.</p>
+          <p><strong>Kontaktplatzhalter:</strong> Adresse, Telefon, E-Mail, Partnerapotheken.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-sky-950 px-4 py-8 text-sky-100">
+    <div class="mx-auto max-w-5xl">
+      <p class="text-lg font-bold">FLORYA</p>
+      <p class="mt-2 text-sm text-sky-200">German Pharmaceutical Skin Care Concept fuer sensible Zonen.</p>
+      <p class="mt-4 text-xs text-sky-300">(c) 2026 FLORYA Med GmbH. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  <script>
+    const productSlides = Array.from(document.querySelectorAll('[data-product-slide]'));
+    let productIndex = 0;
+    if (productSlides.length > 0) {
+      setInterval(() => {
+        productSlides[productIndex].style.opacity = '0';
+        productIndex = (productIndex + 1) % productSlides.length;
+        productSlides[productIndex].style.opacity = '1';
+      }, 2600);
+    }
+
+    const revealItems = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+        }
+      });
+    }, { threshold: 0.15 });
+    revealItems.forEach((el) => revealObserver.observe(el));
+
+    const usageSteps = Array.from(document.querySelectorAll('#usage-steps [data-step]'));
+    let activeStep = 0;
+    function renderUsageSteps() {
+      usageSteps.forEach((step, index) => {
+        if (index === activeStep) {
+          step.classList.remove('border-sky-200', 'bg-white');
+          step.classList.add('border-sky-500', 'bg-sky-50');
+        } else {
+          step.classList.remove('border-sky-500', 'bg-sky-50');
+          step.classList.add('border-sky-200', 'bg-white');
+        }
+      });
+    }
+    if (usageSteps.length > 0) {
+      renderUsageSteps();
+      setInterval(() => {
+        activeStep = (activeStep + 1) % usageSteps.length;
+        renderUsageSteps();
+      }, 2200);
+    }
+  </script>
+</body>
+</html>
